@@ -1,0 +1,449 @@
+
+/* nav section start */
+.nav{ 
+ 
+padding-top: 40px;
+display: flex;
+justify-content: space-between;
+color:var(--font-primary-color);
+padding-bottom: 100px;  
+
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: orange
+}
+.logo-left{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 60px;
+}
+.cv{
+
+    background-color: orange;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+/* nav section end */
+/* banner section start */
+.banner{
+    display: flex;
+    justify-content: space-between;
+     align-items: center; 
+    /* padding-bottom: 100px; */
+}
+.first-line{
+    font-size: 50px;
+    font-weight: bold;
+    color:var(--font-primary-color) ;
+    padding-bottom: 15px;
+     
+}
+.dhaka{
+    color: rgb(205, 150, 49);
+}
+
+.second-line{
+    font-size: 20px; 
+    color:rgb(123, 109, 109);
+    padding-bottom: 15px;
+
+}
+.third-line{
+    font-size: 30px; 
+    color:rgb(236, 224, 224);
+    padding-bottom: 20px;
+    
+}
+.fourth-line{
+    display: flex;
+    background-color: rgb(49, 40, 40);
+    justify-content: space-between;
+    width:fit-content ;
+    border-radius: 10rem;
+    padding: 5px 10px;
+    align-items: baseline;
+}
+.sub-fourth-line{
+display: flex;
+background-color: orange;
+border-radius: 10rem;
+padding: 5px 6px;
+
+
+
+}
+#portfolio-logo-id{
+text-align: center;
+
+}
+
+.fifth-line{
+    display: flex;
+    gap: 5px;
+    padding-top: 20px;
+
+}
+
+.middle-banner{
+    color: var(--font-primary-color);
+    font-size: 25px;
+    text-align: left;
+    padding: 20px 20px;
+    background-color: black;
+    transform: rotate(-3.97deg); 
+
+
+
+}
+/* banner section end */
+/* main section start */
+.first-main-container{
+ background-color: linear-gradient(270.16deg, rgba(255, 177, 71, 0.1) 5.74%, rgba(255, 108, 99, 0.1) 50.64%, rgba(184, 106, 223, 0.1) 92.05%); 
+
+
+}
+.first-main{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    align-items: first baseline;
+    
+}
+.about-me{
+
+    font-size: 35px;
+    font-weight: bold;
+    color:var(--font-primary-color) ;
+    padding-bottom: 15px;
+    padding-top: 100px;
+}
+.text{
+    font-size: 18px; 
+    color:var(--font-primary-color);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.exprience{
+    color: var(--font-primary-color);
+
+}
+.year{
+    font-size: 35px;
+}
+.second-main{
+    background-color:  rgba(141, 56, 184, 0.1);
+    padding: 30px 30px 30px 30px;
+   
+}
+
+.left-side-second-main{
+
+    color: var(--font-primary-color);
+    
+}
+.my-exp{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.second-main{
+    display: flex;
+    justify-content: space-between;
+}
+.right-side-second-main{
+    color: var(--font-primary-color);
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    padding: 15px,5px ;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid white;
+
+
+}
+.top{
+
+    color: var(--font-primary-color);
+    text-align: center;
+    
+}
+
+.award{
+    padding-bottom: 10px;
+    font-size: 20px;
+    padding-top: 100px;
+}
+.text{
+    padding-bottom: 100px;
+}
+.mobile-app-design-container{
+    background-color: black;
+   padding: 30px 30px 30px 30px;
+   text-align: justify;
+   margin-bottom: 70px;
+}
+
+.mobile-app-design{
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+.app-design-left{
+    color: var(--font-primary-color);
+    
+    
+}
+.app-2023{ 
+    font-size:20px ;
+    padding-bottom:20px ;
+}
+.app-design-right{
+    color: var(--font-primary-color);
+}
+.ui-design-container{
+    background-color: black;
+    padding: 30px 30px 30px 30px;
+   text-align: justify;
+   margin-bottom: 100px;
+}
+.ui-design-left{
+    color: var(--font-primary-color);
+}
+.ui-design-right{
+    color: var(--font-primary-color);
+    padding: 10px 10px;
+}
+.ui-design{
+
+
+    display: flex;
+    justify-content: space-between;
+}
+.ui-2023{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.portfolio-container{
+    color: var(--font-primary-color);
+    text-align: center;
+    margin-bottom: 60PX;
+}
+.portfolio{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.details{
+    display: flex;
+    color: var(--font-primary-color);
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.first{
+    background-color: black;
+    padding: 5px 5px 5px 5px;
+}
+.second{
+    background-color:orange;
+    padding: 5px 5px 5px 5px;
+}
+.third{
+    background-color: black;
+    padding: 5px 5px 5px 5px;
+}
+.fourth{
+    background-color: black;
+    padding: 5px 5px 5px 5px;
+}
+.marketing-container{
+    margin-bottom: 40px;
+}
+.marketing{
+
+    display: flex;
+    justify-content: space-between;
+}
+.right-marketing{
+    color: var(--font-primary-color);
+    
+}
+.left-marketing{
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+    width: 40%;
+}
+.two{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.three{
+    padding-bottom: 5px;
+}
+.four{
+    padding-bottom: 5px;
+}
+.five{
+    padding-bottom: 5px;
+}
+.marketing-container-sec{
+    margin-bottom: 100px;
+}
+.contact-container{
+    color: var(--font-primary-color);
+    text-align: center;
+}
+.reach{
+    font-size: 30px;
+}
+.contact-container{
+    margin-bottom:120px ;
+}
+.contact{
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.any-project-container{
+    background-color: rgba(253, 111, 0, 0.1);
+    padding: 30px 30px 30px 30px;
+
+    
+}
+.any-project{
+    color: var(--font-primary-color);
+}
+.top-project{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.middle-project{
+     display:flex;    
+     gap: 550px;  
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: none;
+     border-bottom: 2px solid white;
+     background-color: transparent;
+     font-size: 20px
+
+    
+
+
+}
+.bottom-project{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+    
+}
+.any-project-container{
+    margin-bottom: 150px;
+}
+
+
+
+.name{ 
+     border-bottom: 1px solid white;
+     
+}
+.email{ 
+     border-bottom: 1px solid white;
+
+}
+.message{
+
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+.till-project{
+    display: flex;
+    
+    gap: 15px;
+    padding: 10px 10px 10px 20px;
+    border-top: 1px solid white;
+    margin-bottom: 30px;
+    
+}
+.end-project{
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;  
+    background-color: orange;
+    width: fit-content;
+}
+/* main section end */
+/* footer section start */
+.end-padding-both{
+    background-color: black;
+    padding: 40px 40px 40px 40px;
+    
+}
+.end{
+    color: orange;
+    font-size: 50px;
+    text-align: center;
+}
+.end-mid{
+    color: var(--font-primary-color);
+     display: flex;  
+    gap: 20px;
+    justify-content: center;
+    padding: 30px 30px 30px 30px;
+
+
+}
+.end-last{
+    display:flex;
+    justify-content:center;
+    padding: 30px 30px 30px 30px;
+    gap: 10px;
+}
+.end-last{
+    color: var(--font-primary-color);
+    
+}
+.end{
+
+    color: orange;
+    font-size: 50px;
+    text-align: center;
+}
+.end-mid{
+    color: var(--font-primary-color);
+     display: flex;  
+    gap: 20px;
+    justify-content: center;
+    padding: 30px 30px 30px 30px;
+
+
+}
+.end-last{
+    display:flex;
+    justify-content:center;
+    padding: 30px 30px 30px 30px;
+    gap: 10px;
+}
+.end-last{
+    color: var(--font-primary-color);
+}
+.men{
+    color:rgb(213, 156, 49);
+}

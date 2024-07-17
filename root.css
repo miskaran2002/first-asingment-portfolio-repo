@@ -1,0 +1,48 @@
+
+
+
+:root{
+      --background-color:#151218;   
+    --font-primary-color:#FEFFFF;
+    /* --primary-colour:#BA0BF9; */
+
+   
+}
+
+
+body{
+      background-color: var(--background-color);   
+}
+
+    
+
+/* google fonts link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+* {
+     margin: 0; 
+     padding: 0; 
+}
+
+body {
+    font-family: "Poppins", sans-serif; 
+    
+
+}
+
+/* common css */
+
+padding-both { 
+     padding: 30px 0; 
+}
+
+.container {
+     max-width: 1150px; 
+     margin: 0 auto;
+     --background-color:#151218; 
+
+     
+     
+      
+}
